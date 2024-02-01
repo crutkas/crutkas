@@ -3,13 +3,12 @@
 properties:
   configurationVersion: 0.2.0
   resources:
- 
+
 # Creates a new Dev Drive volume with Drive letter 'Z' and label 'Dev Drive 1' onto disk 0
-    - resource: Disk
+    - resource: Disk/StorageDsc
       id: DevDrive1
           directives:
             description: 'Format a new Dev Drive volume onto Disk 0'
-            module: StorageDsc
             allowPrerelease: true
           settings:
             DiskId: '0'
