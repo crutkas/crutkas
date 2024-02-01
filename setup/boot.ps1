@@ -3,7 +3,7 @@ Write-Output "Path of the script : $mypath"
 Write-Output "Args for script: $Args"
 
 $isWinGetRecent = (winget -v).Trim('v').TrimEnd("-preview").split('.')
-if(!(($isWinGetRecent[0] -gt 1) -or ($isWinGetRecent[0] -ge 1 && $isWinGetRecent[1] -ge 6))) # WinGet is greater than v1 or v1.6 or higher
+if(!(($isWinGetRecent[0] -gt 1) -or ($isWinGetRecent[0] -ge 1 -and $isWinGetRecent[1] -ge 6))) # WinGet is greater than v1 or v1.6 or higher
 {
    
    $paths = "Microsoft.VCLibs.x64.14.00.Desktop.appx", "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle", "Microsoft.UI.Xaml.2.7.x64.appx"
