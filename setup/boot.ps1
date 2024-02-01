@@ -41,7 +41,7 @@ else {
 
 $isAdmin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
 
-$dscUri = "https://github.com/crutkas/setup/"
+$dscUri = "https://raw.githubusercontent.com/crutkas/crutkas/main/setup/"
 $dscNonAdmin = "crutkas.nonAdmin.dsc.yml";
 $dscAdmin = "crutkas.dsc.yml";
 
