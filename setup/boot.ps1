@@ -60,7 +60,7 @@ if (!$isAdmin) {
    Remove-Item $dscNonAdmin -verbose
 
    # restarting for Admin now
-	Start-Process PowerShell -Verb RunAs "-NoProfile -ExecutionPolicy Bypass -Command `"cd '$pwd'; & '$mypath' $Args;`"";
+	Start-Process PowerShell -wait -Verb RunAs "-NoProfile -ExecutionPolicy Bypass -Command `"cd '$pwd'; & '$mypath' $Args;`"";
 	exit;
 }
 else {
