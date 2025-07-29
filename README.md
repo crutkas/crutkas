@@ -3,7 +3,12 @@
 ## About
 - 🔭 I’m Clint Rutkas
 - 🏢 I work at Microsoft
-- 🌱 I run [Microsoft PowerToys](https://github.com/microsoft/powerToys), [Sudo for Windows](https://github.com/microsoft/sudo), [Windows Terminal](https://github.com/microsoft/terminal), [Windows Subsystem for Linux](https://github.com/microsoft/WSL) and more.
+- 🌱 I help work on a bunch of great things on Windows
+  - [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
+  - [Windows Terminal](https://github.com/microsoft/Terminal)
+  - [Windows Subsystem for Linux](https://github.com/microsoft/WSL)
+  - [Edit](https://github.com/microsoft/Edit)
+  - [Sudo for Windows](https://github.com/microsoft/Sudo)
 
 ## Making a difference
 My team's goal is to make Windows the best spot for you, the developers of the world. I'm always open to chat and discuss.  Hit me up crutkas@microsoft.com and happy to schedule time to talk.
